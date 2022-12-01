@@ -9,7 +9,7 @@ import (
 )
 
 func Resolve() {
-	input, err := ioutil.ReadFile("day1/partOne/input.txt")
+	input, err := ioutil.ReadFile("day1/input.txt")
 
 	if err != nil {
 		log.Fatal(err)
