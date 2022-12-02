@@ -1,12 +1,12 @@
-package day1
+package day2
 
 import (
 	"io/ioutil"
 	"log"
 )
 
-func Day1() {
-	input, err := ioutil.ReadFile("day1/input.txt")
+func Day2() {
+	input, err := ioutil.ReadFile("day2/input.txt")
 
 	if err != nil {
 		log.Fatal(err)

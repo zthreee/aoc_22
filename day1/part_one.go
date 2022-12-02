@@ -1,19 +1,12 @@
-package partOne
+package day1
 
 import (
-	"io/ioutil"
 	"log"
 	"strconv"
 	"strings"
 )
 
-func Resolve() {
-	input, err := ioutil.ReadFile("day1/input.txt")
-
-	if err != nil {
-		log.Fatal(err)
-	}
-
+func partOne(input []byte) {
 	lines := strings.Split(string(input), "\n")
 	elfCalories := 0
 	max := 0
