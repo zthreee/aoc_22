@@ -53,7 +53,6 @@ func partTwo(lines []string) int {
 		}
 
 		if startAreaOne <= endAreaTwo && endAreaOne >= startAreaTwo {
-			log.Print("Overlap: ", line)
 			count++
 		}
 	}
